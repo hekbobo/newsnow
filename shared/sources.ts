@@ -227,18 +227,6 @@ export const originSources = {
     type: "hottest",
     home: "https://www.producthunt.com/",
   },
-  "github": {
-    name: "Github",
-    color: "gray",
-    home: "https://github.com/",
-    column: "tech",
-    sub: {
-      "trending-today": {
-        title: "Today",
-        type: "hottest",
-      },
-    },
-  },
   "bilibili": {
     name: "哔哩哔哩",
     color: "blue",
@@ -282,24 +270,24 @@ export const originSources = {
     type: "hottest",
     home: "https://www.baidu.com",
   },
-  "linuxdo": {
-    name: "LINUX DO",
-    column: "tech",
-    color: "slate",
-    home: "https://linux.do/",
-    sub: {
-      latest: {
-        title: "最新",
-        home: "https://linux.do/latest",
-      },
-      hot: {
-        title: "今日最热",
-        type: "hottest",
-        interval: Time.Common,
-        home: "https://linux.do/hot",
-      },
-    },
-  },
+  // "linuxdo": {
+  //   name: "LINUX DO",
+  //   column: "tech",
+  //   color: "slate",
+  //   home: "https://linux.do/",
+  //   sub: {
+  //     latest: {
+  //       title: "最新",
+  //       home: "https://linux.do/latest",
+  //     },
+  //     hot: {
+  //       title: "今日最热",
+  //       type: "hottest",
+  //       interval: Time.Common,
+  //       home: "https://linux.do/hot",
+  //     },
+  //   },
+  // },
 } as const satisfies Record<string, OriginSource>
 
 export const sources = genSources()
