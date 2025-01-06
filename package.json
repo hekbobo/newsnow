@@ -5,11 +5,11 @@
   "private": true,
   "packageManager": "pnpm@9.12.1",
   "author": {
-    "url": "https://github.com/ourongxing/",
-    "email": "orongxing@gmail.com",
-    "name": "ourongxing"
+    "url": "https://51yingsou.com/",
+    "email": "a@gmail.com",
+    "name": "51yingsou"
   },
-  "homepage": "https://github.com/ourongxing/newsnow",
+  "homepage": "https://51yingsou.com/",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
