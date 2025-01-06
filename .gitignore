@@ -10,5 +10,4 @@ dist/
 .env.*
 dev-dist
 *.tsbuildinfo
-wrangler.toml
 imports.app.d.ts
