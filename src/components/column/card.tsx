@@ -33,7 +33,7 @@ export const CardWrapper = forwardRef<HTMLElement, ItemsProps>(({ id, isDragging
     <div
       ref={ref}
       className={$(
-        "flex flex-col h-500px rounded-2xl p-4 cursor-default",
+        "flex flex-col h-full rounded-2xl p-4 cursor-default",
         // "backdrop-blur-5",
         "transition-opacity-300",
         isDragging && "op-50",
@@ -229,7 +229,7 @@ function NewsListHot({ items }: { items: NewsItem[] }) {
   const { width } = useWindowSize()
   return (
     <ol className="flex flex-col gap-2">
-      {items?.map((item, i) => (
+      {items?.slice(0, 15).map((item, i) => (
         <a
           href={width < 768 ? item.mobileUrl || item.url : item.url}
           target="_blank"
@@ -262,7 +262,7 @@ function NewsListTimeLine({ items }: { items: NewsItem[] }) {
   const { width } = useWindowSize()
   return (
     <ol className="border-s border-neutral-400/50 flex flex-col ml-1">
-      {items?.map(item => (
+      {items?.slice(0, 15).map(item => (
         <li key={item.id} className="flex flex-col">
           <span className="flex items-center gap-1 text-neutral-400/50 ml--1px">
             <span className="">-</span>

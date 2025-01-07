@@ -23,13 +23,7 @@ export const originSources = {
       },
     },
   },
-  "zhihu": {
-    name: "知乎",
-    type: "hottest",
-    column: "china",
-    color: "blue",
-    home: "https://www.zhihu.com",
-  },
+
   "weibo": {
     name: "微博",
     title: "实时热搜",
@@ -269,6 +263,13 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://www.baidu.com",
+  },
+  "zhihu": {
+    name: "知乎",
+    type: "hottest",
+    column: "china",
+    color: "blue",
+    home: "https://www.zhihu.com",
   },
   // "linuxdo": {
   //   name: "LINUX DO",
