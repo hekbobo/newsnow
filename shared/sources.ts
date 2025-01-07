@@ -47,14 +47,14 @@ export const originSources = {
     color: "red",
     home: "https://www.zaobao.com",
   },
-  "coolapk": {
-    name: "酷安",
-    type: "hottest",
-    column: "tech",
-    color: "green",
-    title: "今日最热",
-    home: "https://coolapk.com",
-  },
+  // "coolapk": {
+  //   name: "酷安",
+  //   type: "hottest",
+  //   column: "tech",
+  //   color: "green",
+  //   title: "今日最热",
+  //   home: "https://coolapk.com",
+  // },
   "wallstreetcn": {
     name: "华尔街见闻",
     color: "blue",
